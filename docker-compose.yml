@@ -1,0 +1,13 @@
+version: "3"
+services:
+    php-sagas-doctrine-bridge:
+        build:
+            context: ./resources/docker
+            args:
+                - DOCKER_USER
+                - UID
+        container_name: php-sagas-doctrine-bridge
+        hostname: php-sagas-doctrine-bridge
+        restart: on-failure
+        volumes:
+            - .:/var/www
