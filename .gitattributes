@@ -2,4 +2,3 @@
 /resources          export-ignore
 /Makefile           export-ignore
 /phpcs.xml.dist     export-ignore
-/tests              export-ignore
