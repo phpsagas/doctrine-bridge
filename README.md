@@ -9,7 +9,7 @@
 
 ## Requirements  
 - php: >= 7.1
-- [phpsagas/orchestrator](https://github.com/phpsagas/orchestrator)
+- [phpsagas/orchestrator](https://github.com/phpsagas/orchestrator): ^0.0
 - doctrine/orm: ^2.9
 
 ## About package
