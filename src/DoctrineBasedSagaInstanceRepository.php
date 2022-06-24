@@ -60,7 +60,7 @@ class DoctrineBasedSagaInstanceRepository extends EntityRepository implements Sa
         $sagaInstance = $this->find($sagaId);
 
         if (\is_null($sagaInstance)) {
-            throw new EntityNotFoundException('Saga instance not found. ID: %s', $sagaId);
+            throw new EntityNotFoundException(sprintf('Saga instance not found. ID: %s', $sagaId));
         }
 
         return $sagaInstance;
